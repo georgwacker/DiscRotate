@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5612C7F51F7D408F00E9F0DA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5612C7F41F7D408F00E9F0DA /* IOKit.framework */; };
+		5612C7F81F7D58AC00E9F0DA /* Drive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5612C7F71F7D58AC00E9F0DA /* Drive.m */; };
+		565360E61F8BC49600DC9AEB /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 565360E41F8BC45000DC9AEB /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		565360E71F8BC9E300DC9AEB /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565360E41F8BC45000DC9AEB /* Sparkle.framework */; };
+		56881EB51F8E8F530091EF5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56881EB41F8E8F530091EF5B /* ViewController.swift */; };
+		56A1CA141D903AB6000542EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A1CA131D903AB6000542EA /* AppDelegate.swift */; };
+		56A1CA161D903AB6000542EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A1CA151D903AB6000542EA /* Assets.xcassets */; };
+		56A456D81F64742000BB3AFA /* MediaDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A456D71F64742000BB3AFA /* MediaDevice.swift */; };
+		56AB55A61F8FD4EA000C77F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AB55A41F8FCF66000C77F7 /* Main.storyboard */; };
+		56C221441F7BEDC900676A71 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C221431F7BEDC900676A71 /* DeviceViewController.swift */; };
+		56C4D6B81F61F195009A0E5B /* OpticalMediaDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4D6B71F61F195009A0E5B /* OpticalMediaDetector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		565360E51F8BC47800DC9AEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				565360E61F8BC49600DC9AEB /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5612C7F41F7D408F00E9F0DA /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		5612C7F61F7D55B800E9F0DA /* DiscRotate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiscRotate-Bridging-Header.h"; sourceTree = "<group>"; };
+		5612C7F71F7D58AC00E9F0DA /* Drive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drive.m; sourceTree = "<group>"; };
+		565360E41F8BC45000DC9AEB /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		56881EB41F8E8F530091EF5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56A1CA101D903AB6000542EA /* DiscRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A1CA131D903AB6000542EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56A1CA151D903AB6000542EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56A1CA1A1D903AB6000542EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56A456D71F64742000BB3AFA /* MediaDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDevice.swift; sourceTree = "<group>"; };
+		56AB55A51F8FCF66000C77F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56C221431F7BEDC900676A71 /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		56C4D6B71F61F195009A0E5B /* OpticalMediaDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpticalMediaDetector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56A1CA0D1D903AB6000542EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5612C7F51F7D408F00E9F0DA /* IOKit.framework in Frameworks */,
+				565360E71F8BC9E300DC9AEB /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5612C7F31F7D408F00E9F0DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				565360E41F8BC45000DC9AEB /* Sparkle.framework */,
+				5612C7F41F7D408F00E9F0DA /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56A1CA071D903AB6000542EA = {
+			isa = PBXGroup;
+			children = (
+				56A1CA121D903AB6000542EA /* DiscRotate */,
+				56A1CA111D903AB6000542EA /* Products */,
+				5612C7F31F7D408F00E9F0DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56A1CA111D903AB6000542EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56A1CA101D903AB6000542EA /* DiscRotate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56A1CA121D903AB6000542EA /* DiscRotate */ = {
+			isa = PBXGroup;
+			children = (
+				56A1CA131D903AB6000542EA /* AppDelegate.swift */,
+				56C4D6B71F61F195009A0E5B /* OpticalMediaDetector.swift */,
+				56A1CA151D903AB6000542EA /* Assets.xcassets */,
+				56AB55A41F8FCF66000C77F7 /* Main.storyboard */,
+				56A1CA1A1D903AB6000542EA /* Info.plist */,
+				56A456D71F64742000BB3AFA /* MediaDevice.swift */,
+				56C221431F7BEDC900676A71 /* DeviceViewController.swift */,
+				56881EB41F8E8F530091EF5B /* ViewController.swift */,
+				5612C7F61F7D55B800E9F0DA /* DiscRotate-Bridging-Header.h */,
+				5612C7F71F7D58AC00E9F0DA /* Drive.m */,
+			);
+			path = DiscRotate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56A1CA0F1D903AB6000542EA /* DiscRotate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A1CA1D1D903AB6000542EA /* Build configuration list for PBXNativeTarget "DiscRotate" */;
+			buildPhases = (
+				56A1CA0C1D903AB6000542EA /* Sources */,
+				56A1CA0D1D903AB6000542EA /* Frameworks */,
+				56A1CA0E1D903AB6000542EA /* Resources */,
+				565360E51F8BC47800DC9AEB /* CopyFiles */,
+				567D81281F964F0400ECCCC0 /* Increment Build number */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscRotate;
+			productName = DiscRotate;
+			productReference = 56A1CA101D903AB6000542EA /* DiscRotate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56A1CA081D903AB6000542EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Georg Wacker";
+				TargetAttributes = {
+					56A1CA0F1D903AB6000542EA = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 56A1CA0B1D903AB6000542EA /* Build configuration list for PBXProject "DiscRotate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56A1CA071D903AB6000542EA;
+			productRefGroup = 56A1CA111D903AB6000542EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56A1CA0F1D903AB6000542EA /* DiscRotate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56A1CA0E1D903AB6000542EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AB55A61F8FD4EA000C77F7 /* Main.storyboard in Resources */,
+				56A1CA161D903AB6000542EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		567D81281F964F0400ECCCC0 /* Increment Build number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56A1CA0C1D903AB6000542EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A456D81F64742000BB3AFA /* MediaDevice.swift in Sources */,
+				56A1CA141D903AB6000542EA /* AppDelegate.swift in Sources */,
+				56881EB51F8E8F530091EF5B /* ViewController.swift in Sources */,
+				56C221441F7BEDC900676A71 /* DeviceViewController.swift in Sources */,
+				5612C7F81F7D58AC00E9F0DA /* Drive.m in Sources */,
+				56C4D6B81F61F195009A0E5B /* OpticalMediaDetector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56AB55A41F8FCF66000C77F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56AB55A51F8FCF66000C77F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56A1CA1B1D903AB6000542EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = DiscRotate;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "DiscRotate/DiscRotate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		56A1CA1C1D903AB6000542EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = DiscRotate;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "DiscRotate/DiscRotate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		56A1CA1E1D903AB6000542EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 425WBB65FQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DiscRotate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgwacker.DiscRotate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DiscRotate/DiscRotate-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		56A1CA1F1D903AB6000542EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 425WBB65FQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DiscRotate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgwacker.DiscRotate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DiscRotate/DiscRotate-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56A1CA0B1D903AB6000542EA /* Build configuration list for PBXProject "DiscRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A1CA1B1D903AB6000542EA /* Debug */,
+				56A1CA1C1D903AB6000542EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56A1CA1D1D903AB6000542EA /* Build configuration list for PBXNativeTarget "DiscRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A1CA1E1D903AB6000542EA /* Debug */,
+				56A1CA1F1D903AB6000542EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56A1CA081D903AB6000542EA /* Project object */;
+}
