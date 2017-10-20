@@ -28,9 +28,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         
-        //UserDefaults.standard.register(defaults: ["LaunchAtLogin" : true])
+        UserDefaults.standard.register(defaults: ["LaunchAtLogin" : true])
         //print(Array(UserDefaults.standard.dictionaryRepresentation()))
-        
+               
         monitor = NSEvent.addGlobalMonitorForEvents(matching: [.leftMouseDown, .rightMouseDown]){ event in
             if self.popover.isShown {
                 self.popover.performClose(event)
@@ -45,6 +45,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         popover.appearance = NSAppearance(named: .vibrantLight)
         popover.contentViewController = ViewController.shared
+        popover.behavior = NSPopover.Behavior.applicationDefined
         popover.animates = false
         
         //DispatchQueue.global(qos: .utility).async {

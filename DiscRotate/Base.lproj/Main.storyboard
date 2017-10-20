@@ -841,11 +841,17 @@
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
                         <menuItem isSeparatorItem="YES" id="Pgl-64-mmH"/>
-                        <menuItem title="Start on Login" state="on" id="MUV-pe-4he">
+                        <menuItem title="Start on login" state="on" id="MUV-pe-4he">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <binding destination="XfG-lQ-9wD" name="value" keyPath="self.launchAtLogin" id="tnD-un-DUY"/>
+                            </connections>
                         </menuItem>
                         <menuItem title="Automatically check for updates" state="on" id="fMr-jv-M9N">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <binding destination="ETD-zU-MWX" name="value" keyPath="automaticallyChecksForUpdates" id="lAr-A9-bvE"/>
+                            </connections>
                         </menuItem>
                         <menuItem title="Check for updates..." id="TCS-bp-MCm">
                             <modifierMask key="keyEquivalentModifierMask"/>

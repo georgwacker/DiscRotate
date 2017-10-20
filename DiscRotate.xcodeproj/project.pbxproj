@@ -16,6 +16,10 @@
 		56A1CA161D903AB6000542EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A1CA151D903AB6000542EA /* Assets.xcassets */; };
 		56A456D81F64742000BB3AFA /* MediaDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A456D71F64742000BB3AFA /* MediaDevice.swift */; };
 		56AB55A61F8FD4EA000C77F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AB55A41F8FCF66000C77F7 /* Main.storyboard */; };
+		56B4375E1F9A77CA0089D094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4375D1F9A77CA0089D094 /* AppDelegate.swift */; };
+		56B4376F1F9A7AEB0089D094 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B4376D1F9A78BF0089D094 /* ServiceManagement.framework */; };
+		56B437721F9A7D6D0089D094 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B437711F9A7D6D0089D094 /* main.swift */; };
+		56B437731F9A7E4C0089D094 /* DiscRotateHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 56B4375B1F9A77CA0089D094 /* DiscRotateHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		56C221441F7BEDC900676A71 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C221431F7BEDC900676A71 /* DeviceViewController.swift */; };
 		56C4D6B81F61F195009A0E5B /* OpticalMediaDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C4D6B71F61F195009A0E5B /* OpticalMediaDetector.swift */; };
 /* End PBXBuildFile section */
@@ -31,12 +35,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		56B4376B1F9A78820089D094 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				56B437731F9A7E4C0089D094 /* DiscRotateHelper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5612C7F41F7D408F00E9F0DA /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		5612C7F61F7D55B800E9F0DA /* DiscRotate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiscRotate-Bridging-Header.h"; sourceTree = "<group>"; };
 		5612C7F71F7D58AC00E9F0DA /* Drive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drive.m; sourceTree = "<group>"; };
+		56382AFB1F97C4A700A707E9 /* discrotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discrotate.png; sourceTree = "<group>"; };
+		56382AFC1F97C54800A707E9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		565360E41F8BC45000DC9AEB /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		56881EB41F8E8F530091EF5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56A1CA101D903AB6000542EA /* DiscRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +61,11 @@
 		56A1CA1A1D903AB6000542EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56A456D71F64742000BB3AFA /* MediaDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDevice.swift; sourceTree = "<group>"; };
 		56AB55A51F8FCF66000C77F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56B4375B1F9A77CA0089D094 /* DiscRotateHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscRotateHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B4375D1F9A77CA0089D094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56B437661F9A77CA0089D094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B4376D1F9A78BF0089D094 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		56B437711F9A7D6D0089D094 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		56C221431F7BEDC900676A71 /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
 		56C4D6B71F61F195009A0E5B /* OpticalMediaDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpticalMediaDetector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,8 +75,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56B4376F1F9A7AEB0089D094 /* ServiceManagement.framework in Frameworks */,
 				5612C7F51F7D408F00E9F0DA /* IOKit.framework in Frameworks */,
 				565360E71F8BC9E300DC9AEB /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B437581F9A77CA0089D094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 		5612C7F31F7D408F00E9F0DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				56B4376D1F9A78BF0089D094 /* ServiceManagement.framework */,
 				565360E41F8BC45000DC9AEB /* Sparkle.framework */,
 				5612C7F41F7D408F00E9F0DA /* IOKit.framework */,
 			);
@@ -74,7 +104,10 @@
 		56A1CA071D903AB6000542EA = {
 			isa = PBXGroup;
 			children = (
+				56382AFC1F97C54800A707E9 /* README.md */,
+				56382AFB1F97C4A700A707E9 /* discrotate.png */,
 				56A1CA121D903AB6000542EA /* DiscRotate */,
+				56B4375C1F9A77CA0089D094 /* DiscRotateHelper */,
 				56A1CA111D903AB6000542EA /* Products */,
 				5612C7F31F7D408F00E9F0DA /* Frameworks */,
 			);
@@ -84,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				56A1CA101D903AB6000542EA /* DiscRotate.app */,
+				56B4375B1F9A77CA0089D094 /* DiscRotateHelper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +139,16 @@
 			path = DiscRotate;
 			sourceTree = "<group>";
 		};
+		56B4375C1F9A77CA0089D094 /* DiscRotateHelper */ = {
+			isa = PBXGroup;
+			children = (
+				56B4375D1F9A77CA0089D094 /* AppDelegate.swift */,
+				56B437661F9A77CA0089D094 /* Info.plist */,
+				56B437711F9A7D6D0089D094 /* main.swift */,
+			);
+			path = DiscRotateHelper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,6 +160,7 @@
 				56A1CA0D1D903AB6000542EA /* Frameworks */,
 				56A1CA0E1D903AB6000542EA /* Resources */,
 				565360E51F8BC47800DC9AEB /* CopyFiles */,
+				56B4376B1F9A78820089D094 /* CopyFiles */,
 				567D81281F964F0400ECCCC0 /* Increment Build number */,
 			);
 			buildRules = (
@@ -127,19 +172,45 @@
 			productReference = 56A1CA101D903AB6000542EA /* DiscRotate.app */;
 			productType = "com.apple.product-type.application";
 		};
+		56B4375A1F9A77CA0089D094 /* DiscRotateHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B437681F9A77CA0089D094 /* Build configuration list for PBXNativeTarget "DiscRotateHelper" */;
+			buildPhases = (
+				56B437571F9A77CA0089D094 /* Sources */,
+				56B437581F9A77CA0089D094 /* Frameworks */,
+				56B437591F9A77CA0089D094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscRotateHelper;
+			productName = DiscRotateHelper;
+			productReference = 56B4375B1F9A77CA0089D094 /* DiscRotateHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		56A1CA081D903AB6000542EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Georg Wacker";
 				TargetAttributes = {
 					56A1CA0F1D903AB6000542EA = {
 						CreatedOnToolsVersion = 8.0;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					56B4375A1F9A77CA0089D094 = {
+						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -163,6 +234,7 @@
 			projectRoot = "";
 			targets = (
 				56A1CA0F1D903AB6000542EA /* DiscRotate */,
+				56B4375A1F9A77CA0089D094 /* DiscRotateHelper */,
 			);
 		};
 /* End PBXProject section */
@@ -174,6 +246,13 @@
 			files = (
 				56AB55A61F8FD4EA000C77F7 /* Main.storyboard in Resources */,
 				56A1CA161D903AB6000542EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B437591F9A77CA0089D094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +286,15 @@
 				56C221441F7BEDC900676A71 /* DeviceViewController.swift in Sources */,
 				5612C7F81F7D58AC00E9F0DA /* Drive.m in Sources */,
 				56C4D6B81F61F195009A0E5B /* OpticalMediaDetector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B437571F9A77CA0089D094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B437721F9A7D6D0089D094 /* main.swift in Sources */,
+				56B4375E1F9A77CA0089D094 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +474,46 @@
 			};
 			name = Release;
 		};
+		56B437691F9A77CA0089D094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 425WBB65FQ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DiscRotateHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgwacker.DiscRotateHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		56B4376A1F9A77CA0089D094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 425WBB65FQ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DiscRotateHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgwacker.DiscRotateHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,6 +531,15 @@
 			buildConfigurations = (
 				56A1CA1E1D903AB6000542EA /* Debug */,
 				56A1CA1F1D903AB6000542EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B437681F9A77CA0089D094 /* Build configuration list for PBXNativeTarget "DiscRotateHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B437691F9A77CA0089D094 /* Debug */,
+				56B4376A1F9A77CA0089D094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

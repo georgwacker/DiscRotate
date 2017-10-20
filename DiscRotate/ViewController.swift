@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import ServiceManagement
 
 @objcMembers
 class ViewController: NSViewController {
@@ -18,6 +19,13 @@ class ViewController: NSViewController {
     @IBOutlet var emptyCell: NSView!
     @IBOutlet weak var scrollView: NSScrollView!
     @IBOutlet weak var tableView: NSTableView!
+    
+    dynamic var launchAtLogin: Bool = UserDefaults.standard.bool(forKey: "LaunchAtLogin"){
+        didSet {
+            SMLoginItemSetEnabled("com.georgwacker.DiscRotateHelper" as CFString, launchAtLogin)
+            UserDefaults.standard.set(launchAtLogin, forKey: "LaunchAtLogin")
+        }
+    }
     
     let appd = NSApplication.shared.delegate as! AppDelegate
     let dummy = MediaDevice(name: "<empty>", path: "", type: "")
