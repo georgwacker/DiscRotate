@@ -5,6 +5,6 @@
 <title>3.0</title>
 <pubDate>Wed, 25 Oct 2017 16:53:20 +0200</pubDate>
 <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
-<enclosure url="https://raw.githubusercontent.com/georgwacker/DiscRotate/master/DiscRotate-3.0.178.app.zip" sparkle:version="178" sparkle:shortVersionString="3.0" length="8549371" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCLTN7gQpT3mfZuCdAiwENG1UqQ8wIUIz5QBrE9n2uOIk37IgDULW01AEU="/>
+<enclosure url="https://github.com/georgwacker/DiscRotate/releases/download/v3.0.178/DiscRotate-3.0.178.app.zip" sparkle:version="178" sparkle:shortVersionString="3.0" length="8549371" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCLTN7gQpT3mfZuCdAiwENG1UqQ8wIUIz5QBrE9n2uOIk37IgDULW01AEU="/>
 </item>
 </channel></rss>
