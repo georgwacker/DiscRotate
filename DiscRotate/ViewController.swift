@@ -35,6 +35,14 @@ class ViewController: NSViewController {
         optionsMenu.popUp(positioning: nil, at: NSPoint(x: 0, y: sender.frame.origin.y + sender.frame.height), in: sender)
     }
     
+    @IBAction func openHomepage(_ sender: NSMenuItem) {
+        NSWorkspace.shared.open(URL(string: "https://github.com/georgwacker/DiscRotate")!)
+    }
+    
+    @IBAction func openDonation(_ sender: NSMenuItem) {
+        NSWorkspace.shared.open(URL(string: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M46RDHH9QCVG6")!)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

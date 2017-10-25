@@ -836,9 +836,15 @@
                         </menuItem>
                         <menuItem title="Homepage" id="byA-Gb-L2H">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="openHomepage:" target="XfG-lQ-9wD" id="MeF-Pw-uyJ"/>
+                            </connections>
                         </menuItem>
                         <menuItem title="Donate" id="ys3-vG-ZoO">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="openDonation:" target="XfG-lQ-9wD" id="WZ8-72-7kW"/>
+                            </connections>
                         </menuItem>
                         <menuItem isSeparatorItem="YES" id="Pgl-64-mmH"/>
                         <menuItem title="Start on login" state="on" id="MUV-pe-4he">
