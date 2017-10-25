@@ -110,7 +110,7 @@ class MediaDevice : NSObject {
         }
         
         print("plist data complete")
-
+        NSLog("device speed table for %@: %@", self.type, speedTable.description)
     }
 
     func throttle(){

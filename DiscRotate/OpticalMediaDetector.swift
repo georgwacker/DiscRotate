@@ -105,12 +105,22 @@ class OpticalMediaDetector : NSObject
         IONotificationPortDestroy(notifyPort)
     }
     
+    func throttleTimerBlock(_ timer: Timer){
+        for device in self.devices {
+            device.throttle()
+        }
+    }
+    
     func start(){
         
-        throttleTimer = Timer.init(timeInterval: 3, repeats: true){ timer in
-            for device in self.devices {
-                device.throttle() 
+        if #available(OSX 10.12, *) {
+            throttleTimer = Timer.init(timeInterval: 3, repeats: true){ timer in
+                for device in self.devices {
+                    device.throttle()
+                }
             }
+        } else {
+            throttleTimer = Timer.init(timeInterval: 3, target: self, selector: #selector(throttleTimerBlock), userInfo: nil, repeats: true)
         }
         
         // manually add the timer to the runloop to set the runmode, which will allow the timer to fire while the menu is open
