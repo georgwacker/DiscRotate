@@ -1,9 +1,8 @@
-![DiscRotate](discrotate.png)
-
-#  DiscRotate
+# DiscRotate
 
 A MenuItem utility for macOS that will control the speed of your optical drives.
 
+![DiscRotate](discrotate.png)
 
 ## Requirements
 
