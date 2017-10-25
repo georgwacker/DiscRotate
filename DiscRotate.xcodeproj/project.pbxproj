@@ -16,6 +16,7 @@
 		56A1CA161D903AB6000542EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A1CA151D903AB6000542EA /* Assets.xcassets */; };
 		56A456D81F64742000BB3AFA /* MediaDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A456D71F64742000BB3AFA /* MediaDevice.swift */; };
 		56AB55A61F8FD4EA000C77F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AB55A41F8FCF66000C77F7 /* Main.storyboard */; };
+		56AC368B1FA0D568006F3686 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 56AC368A1FA0D568006F3686 /* dsa_pub.pem */; };
 		56B4375E1F9A77CA0089D094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4375D1F9A77CA0089D094 /* AppDelegate.swift */; };
 		56B4376F1F9A7AEB0089D094 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B4376D1F9A78BF0089D094 /* ServiceManagement.framework */; };
 		56B437721F9A7D6D0089D094 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B437711F9A7D6D0089D094 /* main.swift */; };
@@ -61,6 +62,8 @@
 		56A1CA1A1D903AB6000542EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56A456D71F64742000BB3AFA /* MediaDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDevice.swift; sourceTree = "<group>"; };
 		56AB55A51F8FCF66000C77F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56AC368A1FA0D568006F3686 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		56AC368C1FA0DFA8006F3686 /* appcast.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = appcast.xml; sourceTree = "<group>"; };
 		56B4375B1F9A77CA0089D094 /* DiscRotateHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscRotateHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B4375D1F9A77CA0089D094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56B437661F9A77CA0089D094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,6 +107,7 @@
 		56A1CA071D903AB6000542EA = {
 			isa = PBXGroup;
 			children = (
+				56AC368C1FA0DFA8006F3686 /* appcast.xml */,
 				56382AFC1F97C54800A707E9 /* README.md */,
 				56382AFB1F97C4A700A707E9 /* discrotate.png */,
 				56A1CA121D903AB6000542EA /* DiscRotate */,
@@ -125,6 +129,7 @@
 		56A1CA121D903AB6000542EA /* DiscRotate */ = {
 			isa = PBXGroup;
 			children = (
+				56AC368A1FA0D568006F3686 /* dsa_pub.pem */,
 				56A1CA131D903AB6000542EA /* AppDelegate.swift */,
 				56C4D6B71F61F195009A0E5B /* OpticalMediaDetector.swift */,
 				56A1CA151D903AB6000542EA /* Assets.xcassets */,
@@ -245,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56AB55A61F8FD4EA000C77F7 /* Main.storyboard in Resources */,
+				56AC368B1FA0D568006F3686 /* dsa_pub.pem in Resources */,
 				56A1CA161D903AB6000542EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

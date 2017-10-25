@@ -2,7 +2,7 @@
 .DS_Store
 
 # Private Keys
-*.pem
+dsa_priv.pem
 
 # Xcode legacy
 *.mode1
@@ -23,6 +23,8 @@ build/
 
 # Frameworks
 Sparkle.framework
+
+Releases/
 
 ## Other
 *.moved-aside
